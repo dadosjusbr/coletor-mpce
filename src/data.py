@@ -57,10 +57,10 @@ class Data:
 
         if not (
             os.path.isfile(
-                f"./output/{self.year}_{self.month}_remu.xlsx"
+                f"/output/{self.year}_{self.month}_remu.html"
             )
             or os.path.isfile(
-                f"./output/{self.year}_{self.month}_vi.xlsx"
+                f"/output/{self.year}_{self.month}_vi.xlsx"
             )
         ):
             sys.stderr.write(f"Não existe planilhas para {self.month}/{self.year}.")
