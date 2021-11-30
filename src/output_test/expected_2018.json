@@ -46,21 +46,18 @@
                         "natureza": "D",
                         "categoria": "contracheque",
                         "item": "Contribuição Previdenciária",
-                        "valor": -3763.18,
-                        "tipoReceita": "O"
+                        "valor": -3763.18
                     },
                     {
                         "natureza": "D",
                         "categoria": "contracheque",
                         "item": "Imposto de Renda",
-                        "valor": -9401.65,
-                        "tipoReceita": "O"
+                        "valor": -9401.65
                     },
                     {
                         "natureza": "D",
                         "categoria": "contracheque",
-                        "item": "Retenção por Teto Constitucional",
-                        "tipoReceita": "O"
+                        "item": "Retenção por Teto Constitucional"
                     },
                     {
                         "categoria": "indenizações",
