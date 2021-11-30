@@ -33,8 +33,8 @@ def load(file_names, year, month):
      :return um objeto Data() pronto para operar com os arquivos
     """
 
-    contracheque = _read([c for c in file_names if "remu" in c][0])
-    indenizatorias = _read([i for i in file_names if "vi" in i][0])
+    contracheque = _read([c for c in file_names if "contracheque" in c][0])
+    indenizatorias = _read([i for i in file_names if "verbas-indenizatorias" in i][0])
 
     return Data(contracheque, indenizatorias, year, month)
 
@@ -57,10 +57,10 @@ class Data:
 
         if not (
             os.path.isfile(
-                f"/output/{self.year}_{self.month}_remu.html"
+                f"/output/membros-ativos-contracheque-{self.month}-{self.year}.html"
             )
             or os.path.isfile(
-                f"/output/{self.year}_{self.month}_vi.xlsx"
+                f"/output/membros-ativos-verbas-indenizatorias-{self.month}-{self.year}.html"
             )
         ):
             sys.stderr.write(f"Não existe planilhas para {self.month}/{self.year}.")

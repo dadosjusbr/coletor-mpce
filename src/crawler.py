@@ -8,13 +8,13 @@ from urllib.request import urlopen
 base_url = 'http://wapp.mpce.mp.br/PortalTransparenciaConsultas/Visao/extratos.aspx{}'
 
 url_formats = {
-    'remu':'?opt=1',
-    'vi':'?opt=9'
+    "contracheque":'?opt=1',
+    "verbas-indenizatorias":'?opt=9'
     }
 
 url_params = {
-    'remu': (('opt','1'),),
-    'vi': (('opt', '9'),)
+    "contracheque": (('opt','1'),),
+    "verbas-indenizatorias": (('opt', '9'),)
 }
 
 #Armazena informações para o envio de requisições referente aos formatos 
@@ -81,7 +81,7 @@ def crawl(year, month, output_path):
     requests = init_requests(year, month)
     for key in requests:        
         pathlib.Path(output_path).mkdir(exist_ok=True)
-        filename = year + '_' + month + '_' + key
+        filename = f"membros-ativos-{key}-{month}-{year}"
         file_path =  output_path + '/' + filename + '.html'
         download(requests[key], file_path)
 

@@ -4,8 +4,8 @@ from data import load
 
 
 file_names = [
-    "output_test/2018_01_remu.html",
-    "output_test/2018_01_vi.html",
+    "output_test/membros-ativos-contracheque-01-2018.html",
+    "output_test/membros-ativos-verbas-indenizatorias-01-2018.html",
 ]
 
 

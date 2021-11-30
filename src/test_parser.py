@@ -14,15 +14,15 @@ class TestParser(unittest.TestCase):
         with open('output_test/expected_2018.json', 'r') as fp:
             expected = json.load(fp)
 
-        files = ['output_test/2018_01_remu.html', 'output_test/2018_01_vi.html']
+        files = ['output_test/membros-ativos-contracheque-01-2018.html',
+                 'output_test/membros-ativos-verbas-indenizatorias-01-2018.html']
                  
         dados = load(files, '2018', '01')
 
         result_data = parse(dados, 'mpce/01/2018', '01', '2018')
         # Converto o resultado do parser, em dict
         result_to_dict = MessageToDict(result_data)
-        # with open('output_test/expected_2018.json', 'w') as fp:
-        #     json.dump(result_to_dict, fp, indent=4, ensure_ascii=False)
+        
         self.assertEqual(expected, result_to_dict)
 
 
