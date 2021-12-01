@@ -4,3 +4,4 @@ requests==2.25.1
 soupsieve==2.2.1
 protoDadosjusbr==0.7
 protobuf==3.18.0
+lxml==4.6.3
