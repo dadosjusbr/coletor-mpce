@@ -17,7 +17,7 @@ class TestParser(unittest.TestCase):
         files = ['output_test/membros-ativos-contracheque-01-2018.html',
                  'output_test/membros-ativos-verbas-indenizatorias-01-2018.html']
                  
-        dados = load(files, '2018', '01')
+        dados = load(files, '2018', '01','./output_test')
 
         result_data = parse(dados, 'mpce/01/2018', '01', '2018')
         # Converto o resultado do parser, em dict
