@@ -23,7 +23,7 @@ def _read(file):
     return data
 
 
-def load(file_names, year, month):
+def load(file_names, year, month, output_path):
     """Carrega os arquivos passados como parâmetros.
     
      :param file_names: slice contendo os arquivos baixados pelo coletor.
@@ -36,13 +36,14 @@ def load(file_names, year, month):
     contracheque = _read([c for c in file_names if "contracheque" in c][0])
     indenizatorias = _read([i for i in file_names if "verbas-indenizatorias" in i][0])
 
-    return Data(contracheque, indenizatorias, year, month)
+    return Data(contracheque, indenizatorias, year, month, output_path)
 
 
 class Data:
-    def __init__(self, contracheque, indenizatorias, year, month):
+    def __init__(self, contracheque, indenizatorias, year, month, output_path):
         self.year = year
         self.month = month
+        self.output_path = output_path
         self.contracheque = contracheque
         self.indenizatorias = indenizatorias
 
@@ -57,10 +58,10 @@ class Data:
 
         if not (
             os.path.isfile(
-                f"/output/membros-ativos-contracheque-{self.month}-{self.year}.html"
+                f"{self.output_path}/membros-ativos-contracheque-{self.month}-{self.year}.html"
             )
             or os.path.isfile(
-                f"/output/membros-ativos-verbas-indenizatorias-{self.month}-{self.year}.html"
+                f"{self.output_path}/membros-ativos-verbas-indenizatorias-{self.month}-{self.year}.html"
             )
         ):
             sys.stderr.write(f"Não existe planilhas para {self.month}/{self.year}.")
