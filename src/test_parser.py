@@ -11,13 +11,13 @@ class TestParser(unittest.TestCase):
     def test_jan_2018(self):
         self.maxDiff = None
         # Json com a saida esperada
-        with open('output_test/expected_2018.json', 'r') as fp:
+        with open('src/output_test/expected_2018.json', 'r') as fp:
             expected = json.load(fp)
 
-        files = ['output_test/membros-ativos-contracheque-01-2018.html',
-                 'output_test/membros-ativos-verbas-indenizatorias-01-2018.html']
+        files = ['src/output_test/membros-ativos-contracheque-01-2018.html',
+                 'src/output_test/membros-ativos-verbas-indenizatorias-01-2018.html']
                  
-        dados = load(files, '2018', '01','./output_test')
+        dados = load(files, '2018', '01','src/output_test')
 
         result_data = parse(dados, 'mpce/01/2018', '01', '2018')
         # Converto o resultado do parser, em dict
