@@ -3,8 +3,6 @@ from coleta import coleta_pb2 as Coleta
 
 def captura(month, year):
     metadado = Coleta.Metadados()
-    metadado.nao_requer_login = True
-    metadado.nao_requer_captcha = True
     # URL sem semantica, tem que ser feito uma rapagem na página
     # para encontrar a URL de download.
     metadado.acesso = Coleta.Metadados.FormaDeAcesso.RASPAGEM_DIFICULTADA
