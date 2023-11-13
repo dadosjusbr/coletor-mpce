@@ -9,11 +9,12 @@ STATUS_DATA_UNAVAILABLE = 4
 STATUS_INVALID_FILE = 5
 
 
-def _read(file):
+def _read(file, year, month):
     try:
         data = pd.read_html(file)
-        data = data[0]
-        # print(data)
+        # A partir de 09/2023, há uma modificação no html (botões para download em outros formatos)
+        # Essa modificação torna necessário modificar o índice para acessar a planilha de dados no html 
+        data = data[1]
         data = data[: -1]
         data = data.to_numpy()
 
@@ -33,8 +34,8 @@ def load(file_names, year, month, output_path):
      :return um objeto Data() pronto para operar com os arquivos
     """
 
-    contracheque = _read([c for c in file_names if "contracheque" in c][0])
-    indenizatorias = _read([i for i in file_names if "verbas-indenizatorias" in i][0])
+    contracheque = _read([c for c in file_names if "contracheque" in c][0], year, month)
+    indenizatorias = _read([i for i in file_names if "verbas-indenizatorias" in i][0], year, month)
 
     return Data(contracheque, indenizatorias, year, month, output_path)
 
