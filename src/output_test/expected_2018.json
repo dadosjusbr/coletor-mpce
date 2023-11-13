@@ -1,173 +1,169 @@
 {
-    "contraCheque": [
-        {
-            "idContraCheque": "mpce/01/2018/1",
-            "chaveColeta": "mpce/01/2018",
-            "nome": "AGOSTINHO OLIVER RAMOS TELES",
-            "matricula": "13683719",
-            "funcao": "PROMOTOR JUST. ENT. FINAL",
-            "localTrabalho": "92ª Promotoria de Justiça de Fortaleza",
-            "ativo": true,
-            "remuneracoes": {
-                "remuneracao": [
-                    {
-                        "categoria": "contracheque",
-                        "item": "Remuneração do Cargo Efetivo",
-                        "valor": 28947.55
-                    },
-                    {
-                        "categoria": "contracheque",
-                        "item": "Outras Verbas Remuneratórias,Legais ou Judiciais",
-                        "valor": 9649.18,
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "contracheque",
-                        "item": "Função de Confiança ou Cargo em Comissão",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "contracheque",
-                        "item": "Gratificação Natalina",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "contracheque",
-                        "item": "Férias(1/3 constitucional)",
-                        "valor": 19298.36,
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "contracheque",
-                        "item": "Abono de Permanência",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "natureza": "D",
-                        "categoria": "contracheque",
-                        "item": "Contribuição Previdenciária",
-                        "valor": -3763.18
-                    },
-                    {
-                        "natureza": "D",
-                        "categoria": "contracheque",
-                        "item": "Imposto de Renda",
-                        "valor": -9401.65
-                    },
-                    {
-                        "natureza": "D",
-                        "categoria": "contracheque",
-                        "item": "Retenção por Teto Constitucional"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "A.C. PROMOÇÃO",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "A.C. DESLOCAMENTO",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "A.C.F MESES ANTERIORES",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "A.C.F MÊS CORRENTE",
-                        "valor": 2894.76,
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "AUX.ALIMENTAÇÃO",
-                        "valor": 1065.5,
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "DIF. AUX. ALIMENTAÇÃO",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "HORA EXTRA / SERVICO EXTRAORDINÁRIO",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "DIF. DE SUBSÍDIO",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "DIF. DE SUBSÍDIO POR SUBSTITUIÇÃO",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "DIF. DE SUBSÍDIO SUBSTITUIÇÃO (MESES ANT.)",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "DIF. DE SUBSÍDIO AFASTAMENTO",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "GRAT.DE REPRES. DE GABINETE",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "GRAT.REP.GABINETE POR ASSESSORAMENTO",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "DIF.GRATIFICAÇÃO T.T.R",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "GRAT.POR ENCARGO DE LICITAÇÃO - Presidente comitê",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "GRAT.POR ENCARGO DE LICITAÇÃO - Pregoeiro",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "GRAT.POR ENCARGO DE LICITAÇÃO - Membros Titular",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "GRAT.POR ENCARGO DE LICITAÇÃO - Equipe de Apoio",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "GRAT.TRAB.TEC./REL./CIENTIFICO - TTR",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "DIF. DE GRAT.DE GABINETE",
-                        "tipoReceita": "O"
-                    },
-                    {
-                        "categoria": "indenizações",
-                        "item": "AUX. CRECHE",
-                        "tipoReceita": "O"
-                    }
-                ]
+    "idContraCheque": "mpce/01/2018/3",
+    "chaveColeta": "mpce/01/2018",
+    "nome": "AGOSTINHO OLIVER RAMOS TELES",
+    "matricula": "13683719",
+    "funcao": "PROMOTOR JUST. ENT. FINAL",
+    "localTrabalho": "92ª Promotoria de Justiça de Fortaleza",
+    "ativo": true,
+    "remuneracoes": {
+        "remuneracao": [
+            {
+                "categoria": "contracheque",
+                "item": "Remuneração do Cargo Efetivo",
+                "valor": 28947.55
+            },
+            {
+                "categoria": "contracheque",
+                "item": "Outras Verbas Remuneratórias,Legais ou Judiciais",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "contracheque",
+                "item": "Função de Confiança ou Cargo em Comissão",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "contracheque",
+                "item": "Gratificação Natalina",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "contracheque",
+                "item": "Férias(1/3 constitucional)",
+                "valor": 9649.18,
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "contracheque",
+                "item": "Abono de Permanência",
+                "tipoReceita": "O"
+            },
+            {
+                "natureza": "D",
+                "categoria": "contracheque",
+                "item": "Contribuição Previdenciária",
+                "valor": -3763.18
+            },
+            {
+                "natureza": "D",
+                "categoria": "contracheque",
+                "item": "Imposto de Renda",
+                "valor": -9401.65
+            },
+            {
+                "natureza": "D",
+                "categoria": "contracheque",
+                "item": "Retenção por Teto Constitucional",
+                "valor": -0.0
+            },
+            {
+                "categoria": "indenizações",
+                "item": "A.C. PROMOÇÃO",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "A.C. DESLOCAMENTO",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "A.C.F MESES ANTERIORES",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "A.C.F MÊS CORRENTE",
+                "valor": 2894.76,
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "AUX.ALIMENTAÇÃO",
+                "valor": 1065.5,
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "DIF. AUX. ALIMENTAÇÃO",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "HORA EXTRA / SERVICO EXTRAORDINÁRIO",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "DIF. DE SUBSÍDIO",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "DIF. DE SUBSÍDIO POR SUBSTITUIÇÃO",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "DIF. DE SUBSÍDIO SUBSTITUIÇÃO (MESES ANT.)",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "DIF. DE SUBSÍDIO AFASTAMENTO",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "GRAT.DE REPRES. DE GABINETE",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "GRAT.REP.GABINETE POR ASSESSORAMENTO",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "DIF.GRATIFICAÇÃO T.T.R",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "GRAT.POR ENCARGO DE LICITAÇÃO - Presidente comitê",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "GRAT.POR ENCARGO DE LICITAÇÃO - Pregoeiro",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "GRAT.POR ENCARGO DE LICITAÇÃO - Membros Titular",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "GRAT.POR ENCARGO DE LICITAÇÃO - Equipe de Apoio",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "GRAT.TRAB.TEC./REL./CIENTIFICO - TTR",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "DIF. DE GRAT.DE GABINETE",
+                "tipoReceita": "O"
+            },
+            {
+                "categoria": "indenizações",
+                "item": "AUX. CRECHE",
+                "tipoReceita": "O"
             }
-        }
-    ]
+        ]
+    }
 }

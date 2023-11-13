@@ -14,10 +14,7 @@ def _read(file, year, month):
         data = pd.read_html(file)
         # A partir de 09/2023, há uma modificação no html (botões para download em outros formatos)
         # Essa modificação torna necessário modificar o índice para acessar a planilha de dados no html 
-        if int(year) == 2023 and int(month) >= 9:
-            data = data[1]
-        else:
-            data = data[0]
+        data = data[1]
         data = data[: -1]
         data = data.to_numpy()
 

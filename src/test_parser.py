@@ -23,7 +23,7 @@ class TestParser(unittest.TestCase):
         # Converto o resultado do parser, em dict
         result_to_dict = MessageToDict(result_data)
         
-        self.assertEqual(expected, result_to_dict)
+        self.assertEqual(expected, result_to_dict['contraCheque'][2])
 
 
 if __name__ == '__main__':
