@@ -12,8 +12,7 @@ STATUS_INVALID_FILE = 5
 def _read(file):
     try:
         data = pd.read_html(file)
-        data = data[0]
-        # print(data)
+        data = data[1]
         data = data[: -1]
         data = data.to_numpy()
 
